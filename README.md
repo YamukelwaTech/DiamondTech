@@ -26,9 +26,4 @@ In this individual project, I've taken up the challenge to reimagine the Diamond
 
 9. **Bootstrap Footer:** A well-designed footer, incorporating Bootstrap components and proudly displaying my name.
 
-## Getting Started 🌈
-
-1. **Clone this Repository:**
-   ```bash
-   git clone https://github.com/your-username/Diamond-Tech-Bootstrap-Rebuild.git
 
