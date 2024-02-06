@@ -118,16 +118,7 @@ body {
     font-weight: bold;
   }
   
-/* Footer Section Styles */
-#footer {
-    background-color: white; /* Background color for the entire #footer section */
-  }
-  
-  /* Background color for the container inside #footer */
-  #footer .container {
-    background-color: white; /* Set a different background color for the container */
-  }
-  
+
   
  
 
