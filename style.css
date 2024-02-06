@@ -26,6 +26,7 @@ body {
   #header li.nav-item a {
     color: #3ec914;
     text-decoration: none;
+    font-weight: bold;
   }
   
   #header li.nav-item a:hover {
@@ -76,3 +77,60 @@ body {
   }
   
  
+/* Products Section Styles */
+#products {
+    background-color: #f8f9fa; /* Background color for the entire #products section */
+    color: #333;
+  }
+  
+  /* Background color for the container inside #products */
+  #products .container {
+    background-color: #ffffff; /* Set a different background color for the container */
+  }
+  
+  
+  #products .feature-icon-small {
+    background-color: #00ff95 ; /* Adjust the background color of the feature icons */
+    color: #ffffff; /* Adjust the text color of the feature icons */
+  }
+  
+
+  /* Contact Section Styles */
+#contact {
+    background-color: #007bff; /* Background color for the entire #contact section */
+    color: #d21515;
+  }
+  
+  /* Background color for the container inside #contact */
+  #contact .container {
+    background-color: #3ca420; /* Set a different background color for the container */
+  }
+  
+
+  #contact form {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #b22c7c !important; /* Set a background color for the form */
+  }
+  
+
+  #contact button.btn-primary {
+    background-color: #ffffff;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+/* Footer Section Styles */
+#footer {
+    background-color: #872121; /* Background color for the entire #footer section */
+  }
+  
+  /* Background color for the container inside #footer */
+  #footer .container {
+    background-color: #d6f4bb; /* Set a different background color for the container */
+  }
+  
+  
+ 
+
+  
