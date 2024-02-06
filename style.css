@@ -70,15 +70,15 @@ body {
   }
   
 #products h1 {
-    color: #448c74 !important;
-  }
+    color: white !important;
+}
   
 #products h2 {
-    color: #448c74 !important;
+    color: white !important;
   }
   
  #products p.text-body-secondary {
-    color: #448c74 !important;
+    color: white!important;
   }
 
 
@@ -87,10 +87,9 @@ body {
     background-color: black; /* Set a different background color for the container */
   }
   
-#products .feature-icon-small {
-    background-color: white!important; /* Adjust the background color of the feature icons */
-  }
-  
+.icons{
+    color: #448c74;
+}
 
   /* Contact Section Styles */
 #contact {
