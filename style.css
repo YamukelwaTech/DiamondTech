@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+
+
+body {
+    font-family: 'Zilla Slab';
+}
+
+
+/* Header Section Styles */
+#header {
+    background-color:white; /* Background color for the entire #header section */
+  }
+  
+  /* Background color for the container inside #header */
+  #header .container {
+    background-color: #a68d8d; /* Set a different background color for the container */
+  }
+  
+
+  #header li.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #header li.nav-item a {
+    color: #3ec914;
+    text-decoration: none;
+  }
+  
+  #header li.nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+/* Hero Section Styles */
+#hero {
+    padding: 80px 0;
+    background-color: #040D12;
+    color: black;
+  }
+  
+  /* Background color for the container inside #hero */
+#hero .container {
+    background-color:#5C8374;; /* Set a different background color for the container */
+  }
+
+ #hero h1.display-4 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+ #hero p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+#hero .btn-primary {
+    background-color: #93B1A6;
+    color: #ffbb00;
+    font-weight: bold;
+  }
+  
+
+/* About Us Section Styles */
+#about-us {
+    background-color: #f8f9fa; /* Background color for the entire #about-us section */
+    color: #333;
+  }
+  
+  /* Background color for the .bg-body-tertiary element inside #about-us */
+  #about-us .bg-body-tertiary {
+    background-color: #e9ecef; /* Set a different background color for the container */
+  }
+  
+ 
