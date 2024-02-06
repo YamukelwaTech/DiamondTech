@@ -8,23 +8,14 @@ body {
 
 
 /* Header Section Styles */
-#header {
-    background-color:white; /* Background color for the entire #header section */
-  }
   
-  /* Background color for the container inside #header */
-  #header .container {
-    background-color: #a68d8d; /* Set a different background color for the container */
-  }
-  
-
   #header li.nav-item {
     display: inline-block;
     margin-right: 10px;
   }
   
   #header li.nav-item a {
-    color: #3ec914;
+    color: #448c74;
     text-decoration: none;
     font-weight: bold;
   }
@@ -36,21 +27,16 @@ body {
 
 
 /* Hero Section Styles */
-#hero {
-    padding: 80px 0;
-    background-color: #040D12;
-    color: black;
-  }
-  
-  /* Background color for the container inside #hero */
+
+/* Background color for the container inside #hero */
 #hero .container {
-    background-color:#5C8374;; /* Set a different background color for the container */
+    background-color:#448c74; /* Set a different background color for the container */
   }
 
  #hero h1.display-4 {
     font-size: 36px;
     font-weight: bold;
-    line-height: 1;
+    color: white !important;
   }
   
  #hero p {
@@ -58,17 +44,17 @@ body {
     line-height: 1.5;
   }
   
-#hero .btn-primary {
-    background-color: #93B1A6;
-    color: #ffbb00;
+#hero .btn {
+    background-color: white;
+    color: black;
     font-weight: bold;
   }
   
 
 /* About Us Section Styles */
 #about-us {
-    background-color: #f8f9fa; /* Background color for the entire #about-us section */
-    color: #333;
+    background-color: #f8f9fa;
+    color: black;
   }
   
   /* Background color for the .bg-body-tertiary element inside #about-us */
@@ -79,55 +65,68 @@ body {
  
 /* Products Section Styles */
 #products {
-    background-color: #f8f9fa; /* Background color for the entire #products section */
-    color: #333;
+    background-color: black; /* Background color for the entire #products section */
+    color: white;
   }
   
+#products h1 {
+    color: #448c74 !important;
+  }
+  
+#products h2 {
+    color: #448c74 !important;
+  }
+  
+ #products p.text-body-secondary {
+    color: #448c74 !important;
+  }
+
+
   /* Background color for the container inside #products */
-  #products .container {
-    background-color: #ffffff; /* Set a different background color for the container */
+#products .container {
+    background-color: black; /* Set a different background color for the container */
   }
   
-  
-  #products .feature-icon-small {
-    background-color: #00ff95 ; /* Adjust the background color of the feature icons */
-    color: #ffffff; /* Adjust the text color of the feature icons */
+#products .feature-icon-small {
+    background-color: white!important; /* Adjust the background color of the feature icons */
   }
   
 
   /* Contact Section Styles */
 #contact {
-    background-color: #007bff; /* Background color for the entire #contact section */
-    color: #d21515;
+    padding: 80px 0;
+    background-color: white; /* Background color for the entire #contact section */
+    color: black;
+    font: bold !important;
   }
   
   /* Background color for the container inside #contact */
   #contact .container {
-    background-color: #3ca420; /* Set a different background color for the container */
+    background-color: white; /* Set a different background color for the container */
   }
   
 
   #contact form {
     padding: 20px;
     border-radius: 15px;
-    background-color: #b22c7c !important; /* Set a background color for the form */
+    background-color: #448c74 !important; /* Set a background color for the form */
   }
   
 
-  #contact button.btn-primary {
-    background-color: #ffffff;
-    color: #007bff;
+ #contact button.btn{
+    background-color: white;
+    color: black;
     font-weight: bold;
   }
   
 /* Footer Section Styles */
 #footer {
-    background-color: #872121; /* Background color for the entire #footer section */
+    background-color: white; /* Background color for the entire #footer section */
   }
   
   /* Background color for the container inside #footer */
   #footer .container {
-    background-color: #d6f4bb; /* Set a different background color for the container */
+    background-color: white; /* Set a different background color for the container */
   }
   
   
