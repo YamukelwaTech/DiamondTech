@@ -38,19 +38,20 @@ header {
 /* Background color for the container inside #hero */
 
 #hero .container {
-  background-color: #448c74; /* Set a different background color for the container */
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #ff9b50;
+  border: 3px solid black;
+  box-shadow: 0px 0px 0px 4px black, 20px 20px 0px 8px #ffbb5c;
 }
-
 
 #hero h1.display-4 {
   font-size: 36px;
   font-weight: bold;
-  color: white !important;
+  color: black !important;
 }
 
 #hero p {
   font-size: 18px;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -59,7 +60,11 @@ header {
   color: black;
   font-weight: bold;
 }
-
+.robot {
+  height: 500px;
+  width: 420px;
+  border: 3px solid black;
+}
 /* About Us Section Styles */
 #about-us {
   background-color: #f8f9fa;
