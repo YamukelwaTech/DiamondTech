@@ -94,34 +94,45 @@ body {
 
 /* Background color for the .bg-body-tertiary element inside #about-us */
 #about-us .bg-body-tertiary {
-  background-color:  #ffbb5c!important;
+  background-color: #ffbb5c !important;
 }
 
 /* Products Section Styles */
 #products {
-  background-color: black; /* Background color for the entire #products section */
-  color: white;
+  background-color: #fbf3d5;
+  color: black;
 }
 
 #products h1 {
-  color: white !important;
+  color: black !important;
+  border-bottom: 2px solid black !important;
+  text-align: center;
 }
 
 #products h2 {
-  color: white !important;
+  color: black !important;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
 #products p.text-body-secondary {
-  color: white !important;
+  color: black !important;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
 /* Background color for the container inside #products */
 #products .container {
-  background-color: black; /* Set a different background color for the container */
+  background-color: #ff9b50;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px 4px black;
+  margin-bottom: 50px;
 }
 
 .icons {
-  color: #448c74;
+  color: black;
 }
 
 /* Contact Section Styles */
