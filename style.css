@@ -80,11 +80,21 @@ body {
 /* About Us Section Styles */
 #about-us {
   color: black;
+  margin-bottom: 40px;
+}
+.abouth1 {
+  border-bottom: 2px solid black !important;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
 /* Background color for the .bg-body-tertiary element inside #about-us */
 #about-us .bg-body-tertiary {
-  background-color: #fbf3d5 !important;
+  background-color:  #ffbb5c!important;
 }
 
 /* Products Section Styles */
