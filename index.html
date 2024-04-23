@@ -18,12 +18,10 @@
   </head>
 
   <body>
-    <!-- header section-->
-
     <section id="header">
       <div class="container">
         <header
-          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom header"
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 border-bottom header"
         >
           <a
             href="#"
@@ -32,18 +30,54 @@
             <span class="fs-4">Diamond Tech Industries.</span>
           </a>
 
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
-            <li class="nav-item">
-              <a href="#about-us" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#products" class="nav-link">Our Products</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact Us</a>
-            </li>
-          </ul>
+          <!-- Navbar Toggler for Small and Medium Screens -->
+          <button
+            class="navbar-toggler buttonheader"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Menu (Collapsible) -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about-us" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#products" class="nav-link">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Default Header for Large Screens -->
+          <div class="d-none d-lg-block">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about-us" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#products" class="nav-link">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </header>
       </div>
     </section>

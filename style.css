@@ -7,6 +7,12 @@ body {
 }
 
 /* Header Section Styles */
+
+.buttonheader {
+  background-color: black;
+  border-radius: 30px;
+}
+
 .header {
   border-bottom: 2px solid black !important;
 }
@@ -157,7 +163,7 @@ body {
 
 #contact form {
   padding: 20px;
-  background-color: #c63d2f!important;
+  background-color: #c63d2f !important;
   border: 3px solid black;
   box-shadow: 0px 0px 0px 2px black, 17px 17px 0px 8px #ff9b50;
 }
@@ -182,4 +188,11 @@ body {
 /* Footer Section Styles */
 .footeborder {
   border-top: 2px solid black !important;
+}
+
+/* Custom CSS for Hiding Navbar Toggler on Larger Screens */
+@media (min-width: 981px) {
+  .navbar-toggler {
+    display: none;
+  }
 }
